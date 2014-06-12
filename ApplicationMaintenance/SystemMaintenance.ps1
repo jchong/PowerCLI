@@ -7,7 +7,7 @@
 $ScriptName = $MyInvocation.MyCommand.Name
 $shutdownDelay = 20								# seconds between each shutdown
 $startupDelay = 30								# seconds between each startup
-$clusterName = Production
+$clusterName = Cluster1
 
 
 if ( $args.Count -ne 1 ) {
